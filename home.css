@@ -1,0 +1,124 @@
+body { 
+  height: 100%;
+  /* background: -moz-linear-gradient(25deg, rgba(35, 128, 233, 0.4), rgba(243, 44, 160, 0.7)),url(images/home.jpeg);
+  background: -webkit-linear-gradient(25deg, rgba(35, 128, 233, 0.4), rgba(243, 44, 160, 0.7)),url(images/home.jpeg);
+  background: linear-gradient(25deg, rgba(35, 128, 233, 0.4), rgba(243, 44, 160, 0.7)),url(images/home.jpeg);
+
+  background-size:cover; */
+
+  text-align: center;
+  color: #fff;
+  font-family: 'Montserrat','メイリオ', 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+
+body::after {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  content: "";
+  background: -moz-linear-gradient(45deg, rgba(36, 21, 167, 0.4), rgba(72, 133, 245, 0.7)),url(images/home.jpeg);
+  background: -webkit-linear-gradient(45deg, rgba(36, 21, 167, 0.4), rgba(72, 133, 245, 0.7)),url(images/home.jpeg);
+  background: linear-gradient(45deg, rgba(36, 21, 167, 0.4), rgba(72, 133, 245, 0.7)),url(images/home.jpeg);
+
+  z-index: -1; /*背景にする*/
+}
+
+.head-line{
+ font-size: 16px;
+ color: #fff;
+}
+
+/* section {
+  padding:
+  margin:
+} */
+
+.btn {
+  /* vertical-align: auto; */
+  margin: 10px;
+  padding: 50px;
+  font-size: 15px;
+}
+
+.btn :hover{
+  opacity: 50%;
+}
+
+.fortune-btn{
+  font-size:12px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 30% 70% 20% 40%;
+  text-align: center;
+  overflow: hidden;
+  background-image: linear-gradient(45deg,#4d3eaf, #3448b9);
+  transition: .4s;
+  opacity: 80%; 
+}
+
+.stopwatch-btn{
+  font-size: 12px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 40% 20% 70% 30%;
+  text-align: center;
+  overflow: hidden;
+  background-image: linear-gradient(45deg,#1f5dad, #7247c2);
+  transition: .4s;
+  opacity: 80%;  
+}
+
+.typing-btn{
+  font-size: 12px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 30% 70% 20% 40%;
+  text-align: center;
+  overflow: hidden;
+  background-image: linear-gradient(45deg,#4d3eaf, #2368b6);
+  transition: .4s;
+  opacity: 80%;  
+}
+
+section{
+  font-size: 1rem;
+  color: #fff;
+}
+
+.lang-list1, .lang-list2{
+  border-style: outset; 
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  height: 30px; 
+  text-align: center;
+  padding: 10px 0;
+  background-image: linear-gradient(45deg, #4c158a 10%, #2456a0 80%);
+  /* background-color: #b689b0; */
+  color: #fff;
+  /* position:absolute; */
+  bottom: 0;
+}
+
